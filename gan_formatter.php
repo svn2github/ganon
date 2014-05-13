@@ -181,7 +181,7 @@ class HTML_Formatter {
 	#return true;
 	#php4e
 	#php5
-		include_once('third party/jsminplus.php');
+		include_once('third_party/jsminplus.php');
 
 		$errors = array();
 		foreach($root->select('script:not-empty > "~text~"', false, $recursive, true) as $c) {
